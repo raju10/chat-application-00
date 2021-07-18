@@ -58,12 +58,12 @@ const Login = () => {
           Sign in With Google
         </div>
 
-        <br />
+        {/* <br />
         <br />
         <div className="login-button facebook">
           <FacebookOutlined style={{ fontSize: "17px", paddingRight: "5px" }} />{" "}
           Sign in With Facebook
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -6,14 +6,14 @@ import { useAuth } from "../context/AuthContext";
 import axios from "axios";
 
 require("dotenv").config();
-console.log(process.env.REACT_APP_CHAT_ENGINE_ID);
+//console.log(process.env.REACT_APP_CHAT_ENGINE_ID);
 // import await from 'await'
 const Chat = () => {
   // const [loginuser, setLoginUser] = useContext(UserLoginContext);
   const [loading, setLoading] = useState(true);
   const history = useHistory();
   const { user } = useAuth();
-  console.log(user);
+  //console.log(user);
 
   const handleLogout = async () => {
     await auth.signOut();
